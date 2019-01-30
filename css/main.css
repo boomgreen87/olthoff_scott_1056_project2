@@ -5,3 +5,128 @@
 {
 	display: none;
 }
+
+body
+{
+	font-family: 'Libre Franklin', sans-serif;
+	color: #333;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+h3
+{
+	font-size: 22px;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+p
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.italic
+{
+	font-style: italic;
+}
+
+#container
+{
+	width: 960px;
+	margin: 0 auto;
+}
+
+#mainHeader
+{
+	width: 960px;
+	height: 229px;
+	background-image: url("../images/header_river.jpg");
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#mainHeader h2
+{
+	text-align: center;
+	color: #fff;
+	opacity: 90%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 35px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-top: 50px;
+}
+
+#traaInfo
+{
+	margin-top: 5px;
+}
+
+#traaList
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#traaListPic
+{
+	padding-top: 10px;
+}
+
+#traaListText
+{
+	width: 480px;
+}
+
+#traaList p
+{
+	font-weight: bold;
+}
+
+#traaList ul 
+{
+	list-style-type: circle;
+	padding-left: 20px;
+}
+
+#traaList ul li
+{
+	padding-bottom: 5px;
+}
+
+#environmentalism
+{
+	margin-top: 20px;
+	background-image: url("../images/baby_fish.jpg");
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #fff;
+	text-align: center;
+	height: 175px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#trout
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#troutCon
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#troutText
+{
+	width: 620px;
+}
